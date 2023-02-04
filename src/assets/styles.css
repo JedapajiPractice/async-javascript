@@ -1,0 +1,57 @@
+.body{
+    margin: 0;
+}
+.behind-title{
+    background-color: rgb(201,72,41);
+    position: relative;
+    overflow: hidden;
+}
+.container-title{
+    padding-bottom: 2rem;
+    background-color: rgb(228,216,192);
+    z-index: 10;
+    position: relative;
+}
+.midline-title{
+    color: rgb(228,216,192);
+    transform: translate(50%);
+    width: 12rem;
+    height: 100%;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
+    vertical-align: middle;
+
+}
+.twitter-Info{
+    color:rgb(201,72,41);;
+}
+.songs{
+    background-color: rgb(228,216,192);
+}
+
+/*media querys*/
+@media(min-width: 640px){
+    .container-title{
+        padding-bottom: 4rem;
+    }
+}
+@media(min-width: 768px){
+    .container-title{
+        padding-bottom: 5rem;
+    }
+}
+@media(min-width: 1024px){
+    .container-title{
+        padding-bottom: 7rem;
+        max-width: 42rem;
+        width: 100%;
+        display: block;
+    }
+}
+@media(min-width: 1280px){
+    .container-title{
+        padding-bottom: 8rem;
+    }
+}
